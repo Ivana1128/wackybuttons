@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Anton";
+  src: url("../src/fonts/Anton.eot");
+  src: url("../src/fonts/Anton.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Anton.woff2") format("woff2"),
+    url("../src/fonts/Anton.woff") format("woff"),
+    url("../src/fonts/Anton.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins-Italic.eot");
+  src: url("../src/fonts/Poppins-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Poppins-Italic.woff2") format("woff2"),
+    url("../src/fonts/Poppins-Italic.woff") format("woff"),
+    url("../src/fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins-BoldItalic.eot");
+  src: url("../src/fonts/Poppins-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/fonts/Poppins-BoldItalic.woff2") format("woff2"),
+    url("../src/fonts/Poppins-BoldItalic.woff") format("woff"),
+    url("../src/fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins.eot");
+  src: url("../src/fonts/Poppins.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Poppins.woff2") format("woff2"),
+    url("../src/fonts/Poppins.woff") format("woff"),
+    url("../src/fonts/Poppins.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins-Regular.eot");
+  src: url("../src/fonts/Poppins-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("../src/fonts/Poppins-Regular.woff") format("woff"),
+    url("../src/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins-MediumItalic.eot");
+  src: url("../src/fonts/Poppins-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/fonts/Poppins-MediumItalic.woff2") format("woff2"),
+    url("../src/fonts/Poppins-MediumItalic.woff") format("woff"),
+    url("../src/fonts/Poppins-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../src/fonts/Poppins-Medium.eot");
+  src: url("../src/fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("../src/fonts/Poppins-Medium.woff") format("woff"),
+    url("../src/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/fonts/Roboto-Bold.eot");
+  src: url("../src/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../src/fonts/Roboto-Bold.woff") format("woff"),
+    url("../src/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/fonts/Roboto-Regular.eot");
+  src: url("../src/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../src/fonts/Roboto-Regular.woff") format("woff"),
+    url("../src/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/fonts/Roboto-BoldItalic.eot");
+  src: url("../src/fonts/Roboto-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../src/fonts/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../src/fonts/Roboto-BoldItalic.woff") format("woff"),
+    url("../src/fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/fonts/Roboto-Italic.eot");
+  src: url("../src/fonts/Roboto-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../src/fonts/Roboto-Italic.woff2") format("woff2"),
+    url("../src/fonts/Roboto-Italic.woff") format("woff"),
+    url("../src/fonts/Roboto-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}

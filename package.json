@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html ./src/buttons.html",
     "prebuild": "npx rimraf build",
     "build": "parcel build --no-minify --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
   },

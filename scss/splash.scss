@@ -1,0 +1,100 @@
+.carousel-caption {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  background: #52aeca;
+  padding: 30px 0 35px;
+
+  @include media-breakpoint-up(md) {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    transform: translateY(-50%);
+    background: transparent;
+    padding: 0;
+  }
+}
+
+.carousel-content {
+  @include media-breakpoint-up(md) {
+    width: 60%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 50%;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 0.9;
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(md) {
+      font-size: 50px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: 60px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  span {
+    margin-top: 18px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  opacity: unset;
+
+  img {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img:last-child {
+    opacity: 0;
+  }
+
+  &:hover img:first-child {
+    opacity: 0;
+  }
+
+  &:hover img:last-child {
+    opacity: 1;
+  }
+}
+
+.carousel-indicators {
+  button {
+    width: 10px !important;
+    height: 10px !important;
+    border: 3px solid white !important;
+    border-radius: 50% !important;
+    opacity: unset !important;
+  }
+
+  button.active {
+    background-color: $primary;
+  }
+}
