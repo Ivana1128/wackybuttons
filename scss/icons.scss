@@ -1,0 +1,36 @@
+.icons {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+
+  @include media-breakpoint-up(xs) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 0 0 110px;
+  }
+
+  .icons-content {
+    @include media-breakpoint-up(md) {
+      width: 192px;
+      margin: 0px 30px 0px;
+    }
+
+    img {
+      margin-bottom: 10px;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: 26px;
+      }
+    }
+
+    h6 {
+      font-family: "Poppins";
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.footer {
+  padding-top: 12px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 60px 0;
+  }
+
+  .footer_wrapper {
+    font-size: 18px;
+
+    .logo_2 {
+      margin-bottom: 38px;
+      width: 250px;
+    }
+
+    .footer_address {
+      margin-bottom: 25px;
+
+      img {
+        margin-right: 15px;
+      }
+    }
+
+    .footer_contact {
+      img {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .manu,
+  .products {
+    h3 {
+      font-family: "Poppins";
+      font-weight: 500;
+    }
+  }
+
+  .rating {
+    .rating_img {
+      width: 195px;
+      margin-bottom: 20px;
+
+      @media (max-width: 575.98px) {
+        margin-bottom: 10px;
+      }
+    }
+
+    ul li a img {
+      height: 35px;
+      margin: 0 10px;
+    }
+  }
+}

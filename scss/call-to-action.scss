@@ -1,0 +1,11 @@
+.call-to-action {
+  background-color: #fe9900;
+  padding: 30px 0;
+  font-size: 24px;
+
+  .wrapper {
+    @include media-breakpoint-down(lg) {
+      text-align: center;
+    }
+  }
+}

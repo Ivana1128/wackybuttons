@@ -1,0 +1,36 @@
+.visit {
+  .visit-text {
+    padding: 60px 12px;
+
+    @include media-breakpoint-up(xxl) {
+      padding: 150px;
+    }
+
+    h3 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  }
+
+  .visit-contant_button-marker {
+    background-image: url(../src/img/button-maker.jpg);
+    background-size: cover;
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+  }
+
+  .visit-contant_wacky-print {
+    background-image: url(../src/img/wackyprint.jpg);
+    background-size: cover;
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+  }
+}

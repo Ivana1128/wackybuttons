@@ -1,0 +1,48 @@
+.owner {
+
+  @include media-breakpoint-up(lg) {
+    padding: 90px 0 120px;
+  }
+
+  .owner-wrapper {
+    .owner-video {
+      @include media-breakpoint-up(lg) {
+        width: 50%;
+      }
+
+      iframe {
+        width: 100%;
+        height: 300px;
+
+        @include media-breakpoint-up(lg) {
+          height: 100%;
+        }
+      }
+    }
+
+    .owner-text {
+      padding: 60px 12px;
+      @include media-breakpoint-up(md) {
+        padding: 50px 70px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 50%;
+      }
+
+      h2 {
+        line-height: 0.9;
+        font-size: 50px;
+        margin-bottom: 40px;
+
+        @include media-breakpoint-up(md) {
+          font-size: 60px;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}

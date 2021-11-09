@@ -1,0 +1,31 @@
+.shop {
+  h1 {
+    padding: 20px 0;
+    font-size: 30px;
+
+    @include media-breakpoint-up(md) {
+      padding: 50px 0;
+      font-size: 60px;
+    }
+  }
+
+  ul {
+    margin-bottom: 30px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 75px;
+    }
+  }
+
+  .shop-content__left {
+    font-size: 18px;
+
+    @include media-breakpoint-up(md) {
+      margin-right: 75px;
+    }
+  }
+
+  .shop-content__right {
+    font-size: 18px;
+  }
+}
